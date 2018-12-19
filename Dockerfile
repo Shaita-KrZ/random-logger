@@ -1,4 +1,4 @@
 FROM alpine:3.8
 COPY ./entrypoint.sh /
-COPY ./test /test
+COPY ./log /log
 ENTRYPOINT ["/entrypoint.sh"]
